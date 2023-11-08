@@ -35,8 +35,9 @@ function App() {
   const passwordRef=useRef(null)
   return (
     <>
-    <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-white bg-gray-800">
-      <div className='flec shadow-md rounded-md overflow-hidden mb-4'>
+    <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange bg-gray-800">
+      <h1 className='text-center, text-white text-4xl'>Password Generator</h1>
+      <div className='flex shadow-md rounded-md overflow-hidden mb-4'>
         <input value={password} type='text' className='outline-none w-full py-1 px-3 ' ref={passwordRef} readOnly/>
         <button className='bg-blue text-white' onClick={copyPassToClipBoard}>Copy</button> 
         <div className='flex gap-x-2 text-sm'>
