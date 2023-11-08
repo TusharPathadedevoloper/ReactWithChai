@@ -10,6 +10,9 @@ function App() {
     
   }
   setCount(count+1)
+  setCount(count+1)
+  setCount(count+1)
+  setCount(count+1)
  }
  const decrease=()=>{
   if(count<=0){
